@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+  <title> DESAFIO IDEAL TREND</title>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css" type="text/css" media="screen">
+    <!--conexão do documento HTML  com o documento CSS principal -->
+    <title> Desafio IdealTrends</title>
+    <!--definir o titulo para o documento-->
+    <link rel="icon" href="imagens/dev7logo.png" id="logo-da-pagina">
+    <!--iserir a logo do site-->
+  </head>
+
+<body>
+  <!-- MENU DE NAVEGACAO -->
+  <header class="menu-principal">
+    <img class="menu-principal-img" src="imagens/dev7logo.png" alt=" logo da empresa">
+    <nav class="menu">
+      <ul>
+        <li> <a href="#"> HOME </a></li>
+        <li> <a href="#"> EMPRESA </a>
+          <!--SUBMENU 1-->
+          <ul class="submenu1">
+            <li class="sobre-o-grupo"><a href="#"> SOBRE O GRUPO </a></li>
+            <li class="nossa-historia"><a href="#"> NOSSA HISTORIA </a></li>
+            <li class="nossos-principios"><a href="#">NOSSOS PRINCIPIOS </a></li>
+            <li class="submenu-unidades"><a href="#"> UNIDADES </a></li>
+          </ul>
+        </li>
+        <!--SUBMENU 2-->
+        <ul class="submenu2">
+          <li class="zona-leste"><a href="#"> Zona Leste </a></li>
+          <li class="zona-norte"><a href="#"> Zona Norte </a></li>
+          <li class="zona-sul"><a href="#"> Zona Sul </a></li>
+          <li class="zona-oeste"><a href="#"> Zona Oeste </a></li>
+        </ul>
+        </a>
+        </li>
+        <li class="menu-item "> <a href="#"> CLIENTES </a></li>
+        <li class="menu-item "> <a href="#"> CONTATO </a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- FIM DO MENU DE NAVEGACAO-->
+
+  <!--IMAGENS  DO SLIDER-->
+  <nav class="slide">
+    <figure id="imagem-1">
+      <img class="slide-imagem" src="https://www.jqueryscript.net/demo/nivo-slider/demo/images/walle.jpg"  alt="Imagem do filme Walle">
+    </figure>
+    <figure id="imagem-2">
+      <img class="slide-imagem" src="https://www.jqueryscript.net/demo/nivo-slider/demo/images/up.jpg" alt="Imagem do filme Up Altas Aventuras">
+    </figure>
+  </nav>
+  <!--SETA DE NAVEGACAO DO SLIDER-->
+  <selection class="nav-seta">
+    <h1 class="seta-esquerda" id="imagem1"> &lt; </h1>
+    <h1 class="seta-direita" id="imagem2"> &gt;</h1>
+    <!--BOTÃO DE NAVEGACAO DO SLIDER-->
+    <nav class="navegacao-slider">
+      <button type="button" class="botao" value="imagem 1" id="botao-1"></button>
+      <button type="button" class="botao" value="imagem 2" id="botao-2"></button>
+    </nav>
+  </selection>
+
+  <!--CONTEUDO PRINCIPAL-->
+
+  <main class="container">
+    <h1 class="text"><br> TESTE DE HTML E CSS
+      <p class="text"> Quesitos de Avaliação</p>
+      <ul>
+        <li> Organização do codigo (quanto mais limpo melhor); </li>
+        <li> Nível dedetalhamismo (quanto mais identico melhor); </li>
+        <li> Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto); </li>
+      </ul>
+      <p> Obrigado e boa sorte!</p>
+    </h1>
+    <img class="imgagem-container" src="https://pbs.twimg.com/media/D96YIRtW4AA6IIX.jpg" id="imagem do container">
+  </main>
+
+
+  <!-- BOXES DE DESTAQUES -->
+  <table class="flex-container">
+    <section class="container-boxe-destaque"><br><br>
+      <h1 class="texto-box"> BOXES DE DESTAQUES <br></h1>
+      <!--AO CLICAR EM CIMA DE CADA IMAGEM, O USUARIO SERA REDIRECIONADO A PAGINA DO LINK-->
+      <ol>
+        <li>
+          <a href="https://idealtrends.com.br/sobre-o-grupo/">
+            <img class="boxe-imagem"
+              src="https://idealtrends.com.br/wp-content/uploads/2022/03/Banner-sobre-o-grupo-V4.png"
+              id="imagem de destaque 1">
+          </a>
+          <p> Grupo Ideal Trends</p>
+        </li>
+        <li>
+          <a href="https://idealtrends.com.br/principios/">
+            <img class="boxe-imagem"
+              src="https://idealtrends.com.br/wp-content/uploads/2022/03/Banner-nossa-cultura-V4.png"
+              id="imagem de destaque 2">
+          </a>
+          <p class="legenda-boxe">Principios</p>
+        </li>
+        <li>
+          <a href="https://idealtrends.com.br/nossa-historia/">
+            <img class="boxe-imagem"
+              src="https://idealtrends.com.br/wp-content/uploads/2022/03/Banner-nossa-historia-V4.png"
+              id="imagem de destaque 3">
+          </a>
+          <p class="legenda-boxe"> Nossa Historia</p>
+        </li>
+        <li>
+          <a href="https://idealtrends.com.br/unidades/">
+            <img class="boxe-imagem"
+              src="https://idealtrends.com.br/wp-content/uploads/elementor/thumbs/Sem-Titulo-AA2-1024x958-1-pm74sm0oya7qwm1eqormdjes978w4i2k8adcn3if5w.png"
+              id="imagem de destaque ">
+          </a>
+          <p class="legenda-boxe"> Unidades</p>
+        </li>
+      </ol>
+    </section>
+  </table>
+  <!--RODAPE-->
+  <table>
+    <footer class="rodape">
+      <p> HOME </p>
+      <p> EMPRESA </p>
+      <p> CLIENTES</p>
+      <p> CONTATO </p>
+    </footer>
+  </table>
+</body>
+</head>
+
+</html>
