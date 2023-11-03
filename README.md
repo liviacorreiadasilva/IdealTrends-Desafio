@@ -10,7 +10,8 @@ A utilização repetitiva das tags Div no HTML ao adicionar novos elementos, pod
 
 •Nível de Detalhismo:
 
-Utilização de classes,id e comentários tanto no documento HTML quanto no documento CSS
+Utilização de classes,id e comentários tanto no documento HTML quanto no documento CSS;
+animação de transição automática nos slides que se alteram a cada 3 segundos; quando o usuário clicar nas imagens de destaques, será redirecionado para a página do link citado na legenda; Como não foi descrito na regra qual imagens colocar nos boxes de destaques, selecionei as informações mais importantes referente a  empresa IdealTrends; Ao passar o mouse na barra de navegação na opção empresa, o usuário terá acesso ao submenu principal no qual contém outras informações simuladas como a história da empresa, valores da empresa,quais são as suas unidades e ao passar o mouse na opção de unidades o usuário terá acesso ao submenu secundário onde contém as unidades de serviço 
 
 •Tempo de Desenvolvimento:
 
