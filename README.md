@@ -5,6 +5,7 @@ Questitos da Avaliação:
 
 -Organização do Codigo:
 Seguindo a regra do uso de tables na utilização de menos div's, 
+
 -Nível de Detalhismo:
 
 -Tempo de Desenvolvimento:
